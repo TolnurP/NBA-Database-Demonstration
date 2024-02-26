@@ -26,7 +26,8 @@ The initial phase focused on designing a normalized database schema tailored for
 •	Error Handling and Validation: Implemented error handling mechanisms to manage exceptions and validate data inputs effectively, maintaining the database's reliability and robustness.
 •	Functions and Procedures: Drafted custom SQL functions and procedures to automate and optimize repetitive database operations, enhancing efficiency and data processing accuracy.
 
-#### 5.	Security and Access Control: Defined user roles and permissions to establish a secure database environment, restricting access based on user responsibilities and ensuring data confidentiality and integrity.
+#### 5.	Security and Access Control: 
+Defined user roles and permissions to establish a secure database environment, restricting access based on user responsibilities and ensuring data confidentiality and integrity.
 Key Features Highlighted by SQL Queries
 1.	Table Modifications and Constraints:
 •	Altered NBA.play_data to add a primary key, ensuring unique identification for each play.
