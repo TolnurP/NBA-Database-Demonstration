@@ -35,15 +35,20 @@ Defined user roles and permissions to establish a secure database environment, r
 Key Features Highlighted by SQL Queries
 1.	Table Modifications and Constraints:
 •	Altered NBA.play_data to add a primary key, ensuring unique identification for each play.
+
 •	Created a season table derived from nba.coaches, grouping data by seasonStartYear and setting a unique identifier for each season, facilitating easier season-wise data management.
+
 •	Structured a new boxscore_1 table to include a unique box_id for each game's box score entry, enhancing data tracking and analysis capabilities.
+
 •	Established coach_details with distinct coach-related attributes, segregating coach information for better management and query performance.
 
 2.	Data Integrity and Relationships:
 •	Applied foreign key constraints between tables like play_data and games, boxscore and games, ensuring relational data integrity and facilitating complex queries involving multiple aspects of game data.
+
 •	Enhanced the data structure by modifying column data types and adding primary and foreign key constraints to maintain data consistency and enforce logical connections across the dataset.
 
 3.	Advanced SQL Operations:
 •	Devised SQL operations for comprehensive data manipulation including adding, updating, and deleting records, thereby supporting dynamic data management tailored to the administrative needs of NBA data handling.
+
 •	Implemented advanced SQL constructs to manage data relationships and integrity, ensuring a robust and consistent dataset suitable for detailed analysis and reporting.
 This comprehensive approach, combining meticulous database design, structured SQL scripting, and strategic data management practices, underscores the project's commitment to creating a robust, efficient, and secure database management system tailored for comprehensive NBA data analysis and administration.
